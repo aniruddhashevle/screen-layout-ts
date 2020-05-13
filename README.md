@@ -67,7 +67,7 @@ yarn
 Then,
 
 ```sh
-cd ios && pod install
+cd ios && pod install && cd ..
 ```
 
 Then,
