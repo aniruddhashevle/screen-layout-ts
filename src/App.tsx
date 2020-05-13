@@ -7,9 +7,7 @@ import BootSplash from "react-native-bootsplash";
 // #endregion Global Imports
 
 // #region Local Imports
-import RouterActions from "@Services/RouterActions";
 import { theme } from "@Definitions/Styled";
-import AppContainer from "@Router";
 import { I18n } from "@I18n";
 import { configureStore } from "@Redux";
 import { SafeArea } from "@Styled";
@@ -18,7 +16,6 @@ import Home from "@Scenes/Home";
 
 // Configure Store
 const store = configureStore({});
-console.disableYellowBox = true;
 
 class App extends Component<{}> {
     public componentDidMount(): void {

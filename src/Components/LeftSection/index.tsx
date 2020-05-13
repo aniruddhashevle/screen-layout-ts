@@ -6,8 +6,7 @@ import { Container } from "./styled";
 
 const LeftSection: React.FunctionComponent = () => {
     return (
-        <Container>
-        </Container>
+        <Container />
     );
 };
 

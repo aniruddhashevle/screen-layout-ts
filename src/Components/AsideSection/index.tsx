@@ -6,8 +6,7 @@ import { Container } from "./styled";
 
 const AsideSection: React.FunctionComponent = () => {
     return (
-        <Container>
-        </Container>
+        <Container />
     );
 };
 
