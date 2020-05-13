@@ -1,1 +1,0 @@
-// Aside typescript interfaces

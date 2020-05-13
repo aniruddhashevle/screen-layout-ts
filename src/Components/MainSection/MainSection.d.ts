@@ -1,1 +1,0 @@
-// MainSection typescript interfaces

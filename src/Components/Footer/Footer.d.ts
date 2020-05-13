@@ -1,1 +1,0 @@
-// Footer typescript interfaces
