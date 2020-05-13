@@ -1,5 +1,5 @@
 // #region Local Imports
-import { IAction, IHomePage } from "@Interfaces";
+import { IAction } from "@Interfaces";
 import { ActionConsts } from "@Definitions";
 import { HomeReducer } from "./index";
 // #endregion Local Imports
@@ -7,7 +7,7 @@ import { HomeReducer } from "./index";
 describe("home reducer", () => {
     it("should return the initial state", () => {
         expect(
-            HomeReducer(undefined, {} as IAction<IHomePage.Actions.IMapPayload>)
+            HomeReducer(undefined, {} as IAction<{}>)
         ).toEqual({
             home: {
                 version: 1,
