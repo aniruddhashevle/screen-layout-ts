@@ -13,6 +13,7 @@ import AppContainer from "@Router";
 import { I18n } from "@I18n";
 import { configureStore } from "@Redux";
 import { SafeArea } from "@Styled";
+import Home from "@Scenes/Home";
 // #region Local Imports
 
 // Configure Store
@@ -29,11 +30,7 @@ class App extends Component<{}> {
             <Provider store={store}>
                 <ThemeProvider theme={theme}>
                     <SafeArea>
-                        <AppContainer
-                            ref={(ref: object) =>
-                                RouterActions.setNavigationReference(ref)
-                            }
-                        />
+                        <Home />
                     </SafeArea>
                 </ThemeProvider>
             </Provider>

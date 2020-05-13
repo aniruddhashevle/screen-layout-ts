@@ -1,11 +1,6 @@
 // #region Global Imports
 import * as React from "react";
-import { useDispatch } from "react-redux";
-import { Dimensions, TouchableOpacity, StyleSheet, ScrollView, View } from "react-native";
-import { useTranslation } from "react-i18next";
-// #endregion Global Imports
-
-// #region Local Imports
+import { ScrollView, View } from "react-native";
 import {
     Header,
     MainSection,

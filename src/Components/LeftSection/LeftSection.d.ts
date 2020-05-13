@@ -1,1 +1,1 @@
-
+// LeftSection typescript interfaces

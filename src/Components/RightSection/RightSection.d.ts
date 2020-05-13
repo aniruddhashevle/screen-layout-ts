@@ -1,1 +1,1 @@
-
+// RightSection typescript interfaces

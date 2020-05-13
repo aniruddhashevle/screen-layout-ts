@@ -1,4 +1,3 @@
-export { Heading } from "@Components/Heading";
 export { Header } from "@Components/Header";
 export { MainSection } from "@Components/MainSection";
 export { LeftSection } from "@Components/LeftSection";
