@@ -18,6 +18,7 @@ import Home from "@Scenes/Home";
 
 // Configure Store
 const store = configureStore({});
+console.disableYellowBox = true;
 
 class App extends Component<{}> {
     public componentDidMount(): void {

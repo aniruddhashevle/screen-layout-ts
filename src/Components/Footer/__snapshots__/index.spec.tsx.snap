@@ -1,5 +1,56 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Components Footer should match snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fce0a7",
+        "height": 250,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#f8d332",
+        "borderRadius": 25,
+        "borderWidth": 1,
+        "opacity": 1,
+        "paddingBottom": 10,
+        "paddingLeft": 35,
+        "paddingRight": 35,
+        "paddingTop": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+      Click here!
+    </Text>
+  </View>
+</View>
+`;
+
 exports[`Components Heading should match snapshot 1`] = `
 <View
   style={

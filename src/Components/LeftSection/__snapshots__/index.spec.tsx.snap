@@ -47,3 +47,19 @@ exports[`Components Heading should match snapshot 1`] = `
   </Text>
 </View>
 `;
+
+exports[`Components LeftSection should match snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#68933a",
+        "flexBasis": 0,
+        "flexGrow": 0.485,
+        "flexShrink": 1,
+        "height": 300,
+      },
+    ]
+  }
+/>
+`;

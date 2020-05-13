@@ -1,5 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Components AsideSection should match snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#f5d36a",
+        "height": 600,
+        "marginBottom": 10,
+        "marginTop": 10,
+      },
+    ]
+  }
+/>
+`;
+
 exports[`Components Heading should match snapshot 1`] = `
 <View
   style={

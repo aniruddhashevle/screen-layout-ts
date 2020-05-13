@@ -10,7 +10,7 @@ import {
     AsideSection,
 } from "@Components";
 import {
-    RowSection,
+    RowSectionStyled,
 } from "./styled";
 
 const Home: React.FunctionComponent = () => {
@@ -20,10 +20,10 @@ const Home: React.FunctionComponent = () => {
             <Header />
             <View>
                 <MainSection />
-                <RowSection>
+                <RowSectionStyled>
                     <LeftSection />
                     <RightSection />
-                </RowSection>
+                </RowSectionStyled>
                 <AsideSection />
             </View>
             <Footer />

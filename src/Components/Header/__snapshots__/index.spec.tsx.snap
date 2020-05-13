@@ -1,5 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Components Header should match snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#4f5927",
+        "height": 80,
+      },
+    ]
+  }
+/>
+`;
+
 exports[`Components Heading should match snapshot 1`] = `
 <View
   style={
